@@ -3,7 +3,7 @@ require 'formula'
 class Rtmidi < Formula
   homepage 'http://www.music.mcgill.ca/~gary/rtmidi'
   url 'http://www.music.mcgill.ca/~gary/rtmidi/release/rtmidi-2.0.1.tar.gz'
-  sha1 '894be908bb3f1480cefcb24fc4bb77ff5383f5df'
+  sha256 'b5017a91df0c2bc4c0d5c6548ac5f9696c5bc0c202f6bec704563c6f6bec64ec'
 
   def install
     ENV.j1
