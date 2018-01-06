@@ -2,10 +2,10 @@ require 'formula'
 
 class Csound < Formula
   homepage 'http://csound.github.io'
-  url 'https://github.com/csound/csound/archive/6.09.1.tar.gz'
-  sha256 'e4d2e9870d3b29305c9bc404dc93806e61420a57fc4bc69577676b4934c71777'
+  url 'https://github.com/csound/csound/archive/6.10.0.tar.gz'
+  sha256 'a241043521572d00ae3a926611ac52fd6a7e3fe6bafdbe707867aafe32f6d8a3'
   head 'https://github.com/csound/csound.git', :branch => 'develop'
-  version '6.09.1'
+  version '6.10.0'
 
   depends_on 'cmake' => :build
   depends_on 'swig' => :build
